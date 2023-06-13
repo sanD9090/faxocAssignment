@@ -1,6 +1,6 @@
 # How to run this
 
-first npm i then start the fake json server with the command "json-server --watch db.json" and finally ng s 
+first "npm i" then start the fake json server with the command "json-server --watch db.json" and finally "ng s" 
 
 # Tasks done
 
