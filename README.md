@@ -1,6 +1,7 @@
 # How to run this
 
-first "npm i" then start the fake json server with the command "json-server --watch db.json" and finally "ng s" 
+First "npm i" then start the fake json server with the command "json-server --watch db.json" and finally "ng s" 
+If there is no data in dropdown try to match the localhost port number of the running json server to with in the code.
 
 # Tasks done
 
