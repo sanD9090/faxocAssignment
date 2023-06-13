@@ -1,0 +1,135 @@
+<div class="parent">
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input
+        type="text"
+        placeholder="Pick one"
+        aria-label="Number"
+        matInput
+        [formControl]="myControl"
+        [matAutocomplete]="auto"
+      />
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option
+          *ngFor="let option of filteredOptions | async"
+          [value]="option"
+        >
+          {{ option }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>john Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>sandeep Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>abhijeet Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>sachin Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>tarun Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>tridev Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>abhishek Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="card">
+      <img
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Avatar"
+        style="height: 200px"
+        routerLink="dummy"
+      />
+      <div class="container">
+        <h4><b>aswini Doe</b></h4>
+        <p>Architect & Engineer</p>
+      </div>
+    </div>
+  </div>
+</div>
